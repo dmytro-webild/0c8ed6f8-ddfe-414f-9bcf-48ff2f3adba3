@@ -15,7 +15,7 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroBrand
-      brand="Architects of Digital Growth"
+      brand=""
       description="LDW Studio bouwt premium digitale ervaringen die vertrouwen wekken, leads genereren en business laten groeien."
       primaryButton={{
         text: "Plan een gratis strategiesessie",
