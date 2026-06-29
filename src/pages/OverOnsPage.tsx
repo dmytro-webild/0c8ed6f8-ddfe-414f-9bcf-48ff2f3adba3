@@ -12,7 +12,7 @@ export default function OverOnsPage() {
             <AboutTextSplit
               title="Over Ons"
               descriptions={[
-                "Wij zijn een gepassioneerd team van digitale experts, toegewijd aan het bouwen van uitzonderlijke online ervaringen voor vooruitstrevende bedrijven.",
+                " ",
                 "Onze missie is om ondernemingen te helpen groeien door middel van innovatieve weboplossingen, strategisch design en meetbare resultaten. We geloven in de kracht van technologie om complexe problemen op te lossen."
               ]}
               primaryButton={{ text: "Bekijk onze diensten", href: "/diensten" }}
