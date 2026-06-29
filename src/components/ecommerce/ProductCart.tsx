@@ -31,8 +31,30 @@ const ProductCart = ({ isOpen, onClose, items, total, onQuantityChange, onRemove
   }, [isOpen, onClose]);
 
   useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    document.body.style.overflow = isOpen ? "hidden" : "
+Wij zijn Ldw Studio en vanuit een passie voor ondernemerschap, design en digitale innovatie zijn wij daarom deze onderneming begonnen. Met een scherpe blik voor detail geloven wij dat juist de kleinste keuzes het grootste verschil maken. Een fractie in een ontwerp, een vloeiende animatie of de juiste boodschap kan bepalen hoe een merk wordt ervaren.
+
+Wij helpen bedrijven hun online uitstraling opnieuw vorm te geven. Van moderne websites en Shopify-webshops tot krachtige social media, contentcreatie en complete digitale branding. Of een bedrijf nu een nieuwe start maakt of na jaren toe is aan een frisse uitstraling, wij bouwen aan een merk dat weer vooruit kan.
+
+Bij LDW Studio geloven we dat kwaliteit nooit ontstaat uit haast. Daarom draait ons werk niet om zoveel mogelijk projecten, snelle opleveringen of hoge aantallen. Het draait om precisie, maatwerk en digitale oplossingen die jarenlang waarde blijven toevoegen.
+
+Elke onderneming heeft een uniek verhaal. Onze taak is om dat verhaal zichtbaar te maken in een digitale ervaring die vertrouwen wekt, mensen in beweging brengt en bedrijven laat groeien.
+
+Wij bouwen geen websites om een project af te ronden.
+
+Wij creëren digitale mogelijkheden waarop ambitieuze ondernemers hun toekomst kunnen bouwen.";
+    return () => { document.body.style.overflow = "
+Wij zijn Ldw Studio en vanuit een passie voor ondernemerschap, design en digitale innovatie zijn wij daarom deze onderneming begonnen. Met een scherpe blik voor detail geloven wij dat juist de kleinste keuzes het grootste verschil maken. Een fractie in een ontwerp, een vloeiende animatie of de juiste boodschap kan bepalen hoe een merk wordt ervaren.
+
+Wij helpen bedrijven hun online uitstraling opnieuw vorm te geven. Van moderne websites en Shopify-webshops tot krachtige social media, contentcreatie en complete digitale branding. Of een bedrijf nu een nieuwe start maakt of na jaren toe is aan een frisse uitstraling, wij bouwen aan een merk dat weer vooruit kan.
+
+Bij LDW Studio geloven we dat kwaliteit nooit ontstaat uit haast. Daarom draait ons werk niet om zoveel mogelijk projecten, snelle opleveringen of hoge aantallen. Het draait om precisie, maatwerk en digitale oplossingen die jarenlang waarde blijven toevoegen.
+
+Elke onderneming heeft een uniek verhaal. Onze taak is om dat verhaal zichtbaar te maken in een digitale ervaring die vertrouwen wekt, mensen in beweging brengt en bedrijven laat groeien.
+
+Wij bouwen geen websites om een project af te ronden.
+
+Wij creëren digitale mogelijkheden waarop ambitieuze ondernemers hun toekomst kunnen bouwen."; };
   }, [isOpen]);
 
   return (
