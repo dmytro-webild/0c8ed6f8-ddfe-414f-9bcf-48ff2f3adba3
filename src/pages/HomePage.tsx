@@ -33,10 +33,12 @@ export default function HomePage() {
   <div id="about" data-section="about">
     <SectionErrorBoundary name="about">
           <AboutText
-      title="Crafting Digital Excellence. We don't just build websites, we engineer growth for visionary entrepreneurs."
+      tag="Ons verhaal"
+      title="Wij zijn Ldw Studio. Vanuit een passie voor ondernemerschap, design en digitale innovatie zijn wij deze onderneming begonnen."
+      description="Met een scherpe blik voor detail geloven wij dat juist de kleinste keuzes het grootste verschil maken. Een fractie in een ontwerp, een vloeiende animatie of de juiste boodschap kan bepalen hoe een merk wordt ervaren. Wij helpen bedrijven hun online uitstraling opnieuw vorm te geven."
       primaryButton={{
         text: "Lees ons verhaal",
-        href: "#",
+        href: "/over-ons",
       }}
     />
     </SectionErrorBoundary>
