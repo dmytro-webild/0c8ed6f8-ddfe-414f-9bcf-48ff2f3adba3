@@ -25,7 +25,7 @@ export default function HomePage() {
         text: "Bekijk Portfolio",
         href: "#portfolio",
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/smooth-soft-brownish-gradient-backdrop-abstact-background_1258-28474.jpg"
+      imageSrc="https://storage.googleapis.com/webild/users/user_3Fmc3r09SflhMLNoY1gEspIQETh/uploaded-1782763903672-48r7p02n.png"
     />
     </SectionErrorBoundary>
   </div>
