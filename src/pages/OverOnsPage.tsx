@@ -13,7 +13,7 @@ export default function OverOnsPage() {
               title="Over Ons"
               descriptions={[
                 " ",
-                "Onze missie is om ondernemingen te helpen groeien door middel van innovatieve weboplossingen, strategisch design en meetbare resultaten. We geloven in de kracht van technologie om complexe problemen op te lossen."
+                ""
               ]}
               primaryButton={{ text: "Bekijk onze diensten", href: "/diensten" }}
               secondaryButton={{ text: "Neem contact op", href: "/contact" }}
